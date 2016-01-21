@@ -1,0 +1,13 @@
+[
+  {
+  "environment": [
+    { "name": "SOMEVARIABLE1", "value": "${somevariable1}" },
+    { "name": "SOMEVARIABLE2", "value": "${somevariable2}" },
+    { "name": "SOMEVARIABLE3", "value": "${somevariable3}" }
+  ],
+  "name": "my-service",
+  "image": "jenkins",
+  "cpu": 10,
+  "memory": 500
+  }
+]
